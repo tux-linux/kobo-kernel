@@ -29,3 +29,6 @@ cp /mnt/onboard/g_ether.ko /drivers/mx6sl-ntx/usb/gadget
 sync && reboot
 ```
 Your Kobo should now boot with the new kernel.
+
+### Sources
+Official sources can be found here, in the hw/ folder: https://github.com/kobolabs/Kobo-Reader
