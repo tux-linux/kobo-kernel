@@ -6,11 +6,11 @@ A set of enhanced kernels for various Kobo devices.
 This could render your Kobo completely unbootable and unrecoverable. Use at your own risk. In devices with internal SD cards, recovery should be possible, but in those with eMMCs, the only way out is serial port access to U-Boot and flashing the old kernel with fastboot on your computer. And well, if U-Boot was overwritten with the kernel (i.e. you missed a number in the `dd` command), you're screwed up. I'm not responsible, nor any Kobo developers, of any damage done to your device due to custom kernel flashing. You have been warned.
 
 ### Supported devices [WIP]
-Kobo Glo HD
+Kobo Glo HD, Kobo Mini
 <br>
 ### How do I use this?
 You'll need to flash the kernel, preferably with `dd`. Steps:
-1. Dump the kernel (uImage) and everything that's inside the drivers/ folder in the onboard storage;
+1. Dump the kernel (uImage) and everything that's inside the modules/ folder in the onboard storage;
 <br>
 2. Telnet/SSH and type this in:
 ```
